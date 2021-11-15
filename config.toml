@@ -2,3 +2,7 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "pythom"
 theme = "basic"
+
+[params]
+ author = "Tomas Ertola"
+ description = "My kind of portafolio"

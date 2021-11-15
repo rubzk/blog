@@ -1,0 +1,13 @@
+{ "accounts":
+		[
+				{
+						"name" : "Twitter",
+						"url" : "https://twitter.com/theworldisdata"
+				},
+				{
+						"name" : "LinkedIn",
+						"url" : "https://linkedin.com/in/tomas-ertola"
+				}
+		]
+}
+
