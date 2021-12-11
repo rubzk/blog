@@ -1,10 +1,11 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
-author:
 draft: false
-categories:
-- 
+author: tom
 ---
 
-*the quote that I want* by ** "{{ .Params.author }}" **
+Lorem ipsum dolor sit amter, asdasf
+
+<!--more-->
+

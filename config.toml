@@ -2,3 +2,17 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "pythom"
 theme = "basic"
+
+# enable for syntax highlighting
+
+pygmentUseClasses = true
+pygmentsCodefences = true
+
+[params]
+ author = "Tomas Ertola"
+ description = "My kind of portafolio"
+
+
+ [markup]
+   [markup.highlight]
+     noclasses = false

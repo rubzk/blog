@@ -1,0 +1,9 @@
+{{ define "main" }}
+		<h2> {{ .Title}} </h2>
+		<section class="quotes">
+						{{ range .Pages }}
+						<p> {{ .Content }} </p>
+		{{ end }}
+		</section>
+{{ end }} 
+

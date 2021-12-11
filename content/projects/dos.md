@@ -1,15 +1,12 @@
 ---
 title: "Dos"
 draft: false
+image: //via.placeholder.com/640x150
+alt_text: "Dos screenshot"
+summary: "Summary of the Dos projects"
+tech_used:
+- Python
+- Flask
 ---
 
-![alt](//via.placeholder.com/640x150)
-
-Description...
-
-### Tech used
-
-* item
-* item
-* item
-
+Description of the Dos project..

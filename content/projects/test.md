@@ -1,15 +1,12 @@
 ---
 title: "Test"
 draft: false
+image: //via.placeholder.com/640x150
+alt_text: "Test screenshot"
+summary: "Summary of the Test project"
+tech_used:
+- GoLang
+- Hugo
 ---
 
-![alt](//via.placeholder.com/640x150)
-
-Description...
-
-### Tech used
-
-* item
-* item
-* item
-
+Description of the Test project..
