@@ -17,11 +17,18 @@ asdddddIf you’re publishing posts, you might want to include snippets of code 
 
 
 
+``` python
 
-'''python
+from god import aim
 
-pd.DataFrame(["GOOD"])
-'''
+def isGod(aim, gamesense):
+		if aim = aim.god:
+				return "rubzera"
+		else:
+		return "noob"
+
+
+```
 
 To configure this, tell Hugo you want it to use Pygments-style classes when it highlights your code. Add this line to config.toml:
 <!--more-->
