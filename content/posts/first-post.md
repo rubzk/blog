@@ -5,14 +5,12 @@ draft: false
 author: tom
 ---
 
-Lorem ipsum dolor sit amter, asdasf
-asdlkalkjfslkjasflksaf
-askjfalksjflkjsaf
-askjflkjsafkjsafkjsa
-askjgfksajgkjsakgaksgkjasgkjsakjgkjsag
-asfkjsagkjsakjgkjasgkjsajg
-asdddddIf you’re publishing posts, you might want to include snippets of code from time to time. Hugo supports syntax highlighting using a library named Chroma,[21] which is compatible with the popular Pygments[22] syntax highlighter.
+# Title
+## Title 2
+### Title 3
 
+**italic**
+_* bold i think *_
 
 
 

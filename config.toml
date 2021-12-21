@@ -13,6 +13,3 @@ pygmentsCodefences = true
  description = "My kind of portafolio"
 
 
- [markup]
-   [markup.highlight]
-     noclasses = false
