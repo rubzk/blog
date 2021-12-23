@@ -1,20 +1,23 @@
 {{ define "main" }}
-<article class="post prose lg:prose-xl">
-		<header>
-				<h2> {{ .Title }} </h2>
-				<p>
-				By {{ .Params.Author }}
-				</p>
-				<p>
-				Posted {{ .Date.Format "January 2, 2006" }}
-				</p>
-				<p>
-				Reading time: {{ math.Round (div (countwords .Content) 200.0) }} minutes.
-				</p>
-		</header>
+<div class="flex flex-row min-h-screen justify-center items-center">
 
-		<section class="body">
-				{{ .Content}}
-		</section>
-</article>
+		<article class="post prose lg:prose-xl">
+				<header>
+						<h2> {{ .Title }} </h2>
+						<p>
+						By {{ .Params.Author }}
+						</p>
+						<p>
+						Posted {{ .Date.Format "January 2, 2006" }}
+						</p>
+						<p>
+						Reading time: {{ math.Round (div (countwords .Content) 200.0) }} minutes.
+						</p>
+				</header>
+
+				<section class="body">
+						{{ .Content}}
+				</section>
+		</article>
+</div>
 {{ end }}

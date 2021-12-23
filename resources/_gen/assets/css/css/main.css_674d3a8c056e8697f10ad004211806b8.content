@@ -584,17 +584,13 @@ video {
 }
 
 .prose a {
-  color: #10b981;
+  color: #111827;
   text-decoration: underline;
   font-weight: 500;
 }
 
-.prose a:hover {
-  color: #d1d5db;
-}
-
 .prose strong {
-  color: #1f2937;
+  color: #111827;
   font-weight: 600;
 }
 
@@ -700,7 +696,7 @@ video {
 }
 
 .prose h2 {
-  color: #1f2937;
+  color: #111827;
   font-weight: 700;
   font-size: 1.5em;
   margin-top: 2em;
@@ -709,7 +705,7 @@ video {
 }
 
 .prose h3 {
-  color: #374151;
+  color: #111827;
   font-weight: 600;
   font-size: 1.25em;
   margin-top: 1.6em;
@@ -943,10 +939,6 @@ video {
 
 .prose > :last-child {
   margin-bottom: 0;
-}
-
-.prose em {
-  color: #9ca3af;
 }
 
 .prose-sm {
@@ -1895,6 +1887,34 @@ video {
 
 .prose-pink a code {
   color: #db2777;
+}
+
+.prose-DocumentsEFAULT {
+  color: #374151;
+}
+
+.prose-DocumentsEFAULT h2 {
+  color: #1f2937;
+}
+
+.prose-DocumentsEFAULT h3 {
+  color: #374151;
+}
+
+.prose-DocumentsEFAULT strong {
+  color: #1f2937;
+}
+
+.prose-DocumentsEFAULT em {
+  color: #9ca3af;
+}
+
+.prose-DocumentsEFAULT a {
+  color: #10b981;
+}
+
+.prose-DocumentsEFAULT a:hover {
+  color: #d1d5db;
 }
 
 .space-y-0 > :not([hidden]) ~ :not([hidden]) {
@@ -30507,17 +30527,13 @@ h1 {
   }
 
   .sm\:prose a {
-    color: #10b981;
+    color: #111827;
     text-decoration: underline;
     font-weight: 500;
   }
 
-  .sm\:prose a:hover {
-    color: #d1d5db;
-  }
-
   .sm\:prose strong {
-    color: #1f2937;
+    color: #111827;
     font-weight: 600;
   }
 
@@ -30623,7 +30639,7 @@ h1 {
   }
 
   .sm\:prose h2 {
-    color: #1f2937;
+    color: #111827;
     font-weight: 700;
     font-size: 1.5em;
     margin-top: 2em;
@@ -30632,7 +30648,7 @@ h1 {
   }
 
   .sm\:prose h3 {
-    color: #374151;
+    color: #111827;
     font-weight: 600;
     font-size: 1.25em;
     margin-top: 1.6em;
@@ -30866,10 +30882,6 @@ h1 {
 
   .sm\:prose > :last-child {
     margin-bottom: 0;
-  }
-
-  .sm\:prose em {
-    color: #9ca3af;
   }
 
   .sm\:prose-sm {
@@ -31818,6 +31830,34 @@ h1 {
 
   .sm\:prose-pink a code {
     color: #db2777;
+  }
+
+  .sm\:prose-DocumentsEFAULT {
+    color: #374151;
+  }
+
+  .sm\:prose-DocumentsEFAULT h2 {
+    color: #1f2937;
+  }
+
+  .sm\:prose-DocumentsEFAULT h3 {
+    color: #374151;
+  }
+
+  .sm\:prose-DocumentsEFAULT strong {
+    color: #1f2937;
+  }
+
+  .sm\:prose-DocumentsEFAULT em {
+    color: #9ca3af;
+  }
+
+  .sm\:prose-DocumentsEFAULT a {
+    color: #10b981;
+  }
+
+  .sm\:prose-DocumentsEFAULT a:hover {
+    color: #d1d5db;
   }
 
   .sm\:space-y-0 > :not([hidden]) ~ :not([hidden]) {
@@ -60378,17 +60418,13 @@ h1 {
   }
 
   .md\:prose a {
-    color: #10b981;
+    color: #111827;
     text-decoration: underline;
     font-weight: 500;
   }
 
-  .md\:prose a:hover {
-    color: #d1d5db;
-  }
-
   .md\:prose strong {
-    color: #1f2937;
+    color: #111827;
     font-weight: 600;
   }
 
@@ -60494,7 +60530,7 @@ h1 {
   }
 
   .md\:prose h2 {
-    color: #1f2937;
+    color: #111827;
     font-weight: 700;
     font-size: 1.5em;
     margin-top: 2em;
@@ -60503,7 +60539,7 @@ h1 {
   }
 
   .md\:prose h3 {
-    color: #374151;
+    color: #111827;
     font-weight: 600;
     font-size: 1.25em;
     margin-top: 1.6em;
@@ -60737,10 +60773,6 @@ h1 {
 
   .md\:prose > :last-child {
     margin-bottom: 0;
-  }
-
-  .md\:prose em {
-    color: #9ca3af;
   }
 
   .md\:prose-sm {
@@ -61689,6 +61721,34 @@ h1 {
 
   .md\:prose-pink a code {
     color: #db2777;
+  }
+
+  .md\:prose-DocumentsEFAULT {
+    color: #374151;
+  }
+
+  .md\:prose-DocumentsEFAULT h2 {
+    color: #1f2937;
+  }
+
+  .md\:prose-DocumentsEFAULT h3 {
+    color: #374151;
+  }
+
+  .md\:prose-DocumentsEFAULT strong {
+    color: #1f2937;
+  }
+
+  .md\:prose-DocumentsEFAULT em {
+    color: #9ca3af;
+  }
+
+  .md\:prose-DocumentsEFAULT a {
+    color: #10b981;
+  }
+
+  .md\:prose-DocumentsEFAULT a:hover {
+    color: #d1d5db;
   }
 
   .md\:space-y-0 > :not([hidden]) ~ :not([hidden]) {
@@ -90249,17 +90309,13 @@ h1 {
   }
 
   .lg\:prose a {
-    color: #10b981;
+    color: #111827;
     text-decoration: underline;
     font-weight: 500;
   }
 
-  .lg\:prose a:hover {
-    color: #d1d5db;
-  }
-
   .lg\:prose strong {
-    color: #1f2937;
+    color: #111827;
     font-weight: 600;
   }
 
@@ -90365,7 +90421,7 @@ h1 {
   }
 
   .lg\:prose h2 {
-    color: #1f2937;
+    color: #111827;
     font-weight: 700;
     font-size: 1.5em;
     margin-top: 2em;
@@ -90374,7 +90430,7 @@ h1 {
   }
 
   .lg\:prose h3 {
-    color: #374151;
+    color: #111827;
     font-weight: 600;
     font-size: 1.25em;
     margin-top: 1.6em;
@@ -90608,10 +90664,6 @@ h1 {
 
   .lg\:prose > :last-child {
     margin-bottom: 0;
-  }
-
-  .lg\:prose em {
-    color: #9ca3af;
   }
 
   .lg\:prose-sm {
@@ -91560,6 +91612,34 @@ h1 {
 
   .lg\:prose-pink a code {
     color: #db2777;
+  }
+
+  .lg\:prose-DocumentsEFAULT {
+    color: #374151;
+  }
+
+  .lg\:prose-DocumentsEFAULT h2 {
+    color: #1f2937;
+  }
+
+  .lg\:prose-DocumentsEFAULT h3 {
+    color: #374151;
+  }
+
+  .lg\:prose-DocumentsEFAULT strong {
+    color: #1f2937;
+  }
+
+  .lg\:prose-DocumentsEFAULT em {
+    color: #9ca3af;
+  }
+
+  .lg\:prose-DocumentsEFAULT a {
+    color: #10b981;
+  }
+
+  .lg\:prose-DocumentsEFAULT a:hover {
+    color: #d1d5db;
   }
 
   .lg\:space-y-0 > :not([hidden]) ~ :not([hidden]) {
@@ -120120,17 +120200,13 @@ h1 {
   }
 
   .xl\:prose a {
-    color: #10b981;
+    color: #111827;
     text-decoration: underline;
     font-weight: 500;
   }
 
-  .xl\:prose a:hover {
-    color: #d1d5db;
-  }
-
   .xl\:prose strong {
-    color: #1f2937;
+    color: #111827;
     font-weight: 600;
   }
 
@@ -120236,7 +120312,7 @@ h1 {
   }
 
   .xl\:prose h2 {
-    color: #1f2937;
+    color: #111827;
     font-weight: 700;
     font-size: 1.5em;
     margin-top: 2em;
@@ -120245,7 +120321,7 @@ h1 {
   }
 
   .xl\:prose h3 {
-    color: #374151;
+    color: #111827;
     font-weight: 600;
     font-size: 1.25em;
     margin-top: 1.6em;
@@ -120479,10 +120555,6 @@ h1 {
 
   .xl\:prose > :last-child {
     margin-bottom: 0;
-  }
-
-  .xl\:prose em {
-    color: #9ca3af;
   }
 
   .xl\:prose-sm {
@@ -121431,6 +121503,34 @@ h1 {
 
   .xl\:prose-pink a code {
     color: #db2777;
+  }
+
+  .xl\:prose-DocumentsEFAULT {
+    color: #374151;
+  }
+
+  .xl\:prose-DocumentsEFAULT h2 {
+    color: #1f2937;
+  }
+
+  .xl\:prose-DocumentsEFAULT h3 {
+    color: #374151;
+  }
+
+  .xl\:prose-DocumentsEFAULT strong {
+    color: #1f2937;
+  }
+
+  .xl\:prose-DocumentsEFAULT em {
+    color: #9ca3af;
+  }
+
+  .xl\:prose-DocumentsEFAULT a {
+    color: #10b981;
+  }
+
+  .xl\:prose-DocumentsEFAULT a:hover {
+    color: #d1d5db;
   }
 
   .xl\:space-y-0 > :not([hidden]) ~ :not([hidden]) {
@@ -149991,17 +150091,13 @@ h1 {
   }
 
   .\32xl\:prose a {
-    color: #10b981;
+    color: #111827;
     text-decoration: underline;
     font-weight: 500;
   }
 
-  .\32xl\:prose a:hover {
-    color: #d1d5db;
-  }
-
   .\32xl\:prose strong {
-    color: #1f2937;
+    color: #111827;
     font-weight: 600;
   }
 
@@ -150107,7 +150203,7 @@ h1 {
   }
 
   .\32xl\:prose h2 {
-    color: #1f2937;
+    color: #111827;
     font-weight: 700;
     font-size: 1.5em;
     margin-top: 2em;
@@ -150116,7 +150212,7 @@ h1 {
   }
 
   .\32xl\:prose h3 {
-    color: #374151;
+    color: #111827;
     font-weight: 600;
     font-size: 1.25em;
     margin-top: 1.6em;
@@ -150350,10 +150446,6 @@ h1 {
 
   .\32xl\:prose > :last-child {
     margin-bottom: 0;
-  }
-
-  .\32xl\:prose em {
-    color: #9ca3af;
   }
 
   .\32xl\:prose-sm {
@@ -151302,6 +151394,34 @@ h1 {
 
   .\32xl\:prose-pink a code {
     color: #db2777;
+  }
+
+  .\32xl\:prose-DocumentsEFAULT {
+    color: #374151;
+  }
+
+  .\32xl\:prose-DocumentsEFAULT h2 {
+    color: #1f2937;
+  }
+
+  .\32xl\:prose-DocumentsEFAULT h3 {
+    color: #374151;
+  }
+
+  .\32xl\:prose-DocumentsEFAULT strong {
+    color: #1f2937;
+  }
+
+  .\32xl\:prose-DocumentsEFAULT em {
+    color: #9ca3af;
+  }
+
+  .\32xl\:prose-DocumentsEFAULT a {
+    color: #10b981;
+  }
+
+  .\32xl\:prose-DocumentsEFAULT a:hover {
+    color: #d1d5db;
   }
 
   .\32xl\:space-y-0 > :not([hidden]) ~ :not([hidden]) {
