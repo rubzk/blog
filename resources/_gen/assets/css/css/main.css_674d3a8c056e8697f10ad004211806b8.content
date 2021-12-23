@@ -30449,6 +30449,15 @@ video {
   animation: bounce 1s infinite;
 }
 
+h1 {
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1;
+  margin: 1.25rem;
+  margin-bottom: 0.5rem;
+  margin-top: 3rem
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;

@@ -19,7 +19,7 @@ module.exports = {
       },
 
       typography: (theme) => ({
-        DEFAULT: {
+        DocumentsEFAULT: {
           css: {
             color: theme('colors.gray.700'),
             h2: {
