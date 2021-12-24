@@ -1,6 +1,6 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "pythom"
+title = "rubz.dev"
 theme = "basic"
 
 # enable for syntax highlighting
