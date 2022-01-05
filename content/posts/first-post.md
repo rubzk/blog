@@ -1,8 +1,8 @@
 ---
-title: "First Post"
+title: "An introduction to csgo python library"
 date: 2021-11-16T19:21:50+01:00
 draft: false
-author: tom
+tags: programming, python
 ---
 
 # Title

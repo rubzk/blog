@@ -2,18 +2,17 @@
 
 <h1 class="justify-center"> Recent Posts </h2>
 
-<div class="flex flex-row min-h-screen justify-center">
-		<div class="flex flex-col bg-red-500">
+<div class="flex justify-center">
+		<div class="flex flex-col w-2/3">
 						{{ range .Pages }}
-						<div class="flex-col bg-gray-100">
+						<div class="flex-col m-2">
 								<div>
 										<h1><a href="{{ .RelPermalink }}"> {{ .Title }}</a></h1>
 								</div>
-								<div class="flex flex-row">
+								<div class="flex flex-row justify-between mt-2 mb-2 mr-4 ml-4">
 
-										<h2>{{ .Params.author }}</h2> 
-										<h2>{{ .ReadingTime }} </h2>
-										<p>{{ .Date }}</p>
+										<p class="text-2xl mr-4 justify-center font-normal">{{ .Params.tags }}</p> 
+										<p class="text-2xl mr-4 justify-center font-thin italic">{{ .Date.Format "January 2, 2006" }}</p>
 								</div>
 						</div>
 						{{ end }} 
