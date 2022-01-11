@@ -2,6 +2,7 @@ node_modules/
 .DS_Store
 /assets/jsconfig.json
 hugo_stats.json
+.svg
 
 # Executable may be added to repository
 hugo.exe
