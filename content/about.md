@@ -1,14 +1,12 @@
 ---
-title: "About"
+title: "about"
 date: 2021-11-03T14:12:00+01:00
 draft: false
 ---
-
-
-tom is a data scientist based in buenos aires argentina. the goal of this blog is to explain his point of view about mostly machine learning and data science topics but you can find another stuff too.
+tom is a data analyst/scientist based in barcelona, spain. the goal of this website is to create content about programming and other stuff
 
 ## basic bio:
 
-tom majored in business but his skeptcisim and curiosity lead him to the world of data two years ago and since then he fell in love with AI.
+tom majored in business but his skeptcisim and curiosity lead him to the world of data two years ago and since then he do not stop learning.
 
-*fun fact*: you could find tom also as rubz which is an abbreviation of his childhood nickname rubio that means blond in spanish.
+_*fun fact*_: you could find tom also as `rubz` which is an abbreviation of his childhood nickname rubio that means blond in spanish.
