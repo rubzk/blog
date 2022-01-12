@@ -1,7 +1,13 @@
 {{ define "main" }}
+<div class="flex flex-row min-h-screen justify-center py-10">
 
-		<h2> {{ .Title }} </h2>
+	<article class="post prose lg:prose-xl">
+
+		<h2> {{ .Title }}</h2>
 
 		{{ .Content }}
 
+
+	</article>
+</div>
 {{ end }}
