@@ -15,7 +15,7 @@ module.exports = {
 
       fontFamily: {
         ...fontFamily,
-        'sans': 'Poppins, sans-serif'
+        'sans': 'Helvetica, sans-serif'
       },
 
       typography: (theme) => ({
