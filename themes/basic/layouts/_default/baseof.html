@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html>
-    {{- partial "head.html" . -}}
-    <body class="bg-black">
-			<div class="main">
-				{{- partial "header.html" . -}}
-				<main>
-						{{- block "main" . }}{{- end }}
-				</main>
-				{{- partial "footer.html" . -}}
-		    </div>
-    </body>
+{{- partial "head.html" . -}}
+
+<body class="bg-black">
+	<div class="main">
+		{{- partial "header.html" . -}}
+		<main>
+			{{- block "main" . }}{{- end }}
+		</main>
+		{{- partial "footer.html" . -}}
+	</div>
+	<script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+</body>
+
 </html>
