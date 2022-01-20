@@ -19,28 +19,17 @@ module.exports = {
       },
 
       typography: (theme) => ({
-        DocumentsEFAULT: {
+        DEFAULT: {
           css: {
-            color: theme('colors.gray.700'),
+            p: {
+              color: '#e76f51'
+            },
             h2: {
-              color: theme('colors.gray.800'),
+              color: '#e76f51'
             },
-
             h3: {
-              color: theme('colors.gray.700'),
-            },
-            strong: {
-              color: theme('colors.gray.800'),
-            },
-            em: {
-              color: theme('colors.gray.400'),
-            },
-            a: {
-              color: theme('colors.green.500'),
-              '&:hover': {
-                color: theme('colors.gray.300')
-              },
-            },
+              color: '#e766f51'
+            }
           },
         },
       })
