@@ -1,23 +1,29 @@
 {{ define "main" }}
 
-<h1 class="justify-center text-4xl text-white"> Recent Posts </h2>
 
-<div class="flex justify-center">
-		<div class="flex flex-col w-2/3 text-white">
-						{{ range .Pages }}
-						<div class="flex-col m-2">
-								<div>
-										<h1 class="text-2xl"><a href="{{ .RelPermalink }}"> {{ .Title }}</a></h1>
-								</div>
-								<div class="flex flex-row justify-between mt-2 mb-2 mr-4 ml-4">
+<div class="justify-center ml-6 py-10">
 
-										<p class="text-xl mr-4 justify-center font-normal">{{ .Params.tags }}</p> 
-										<p class="text-xl mr-4 justify-center font-thin italic">{{ .Date.Format "January 2, 2006" }}</p>
-								</div>
-						</div>
-						{{ end }} 
-		</div>
+	<span class="p-2 justify-center text-white text-4xl font-bold bg-black"> Recent Posts </span>
 
 </div>
 
-{{ end }} 
+
+<div class="flex justify-center">
+	<div class="flex flex-col w-2/3 text-black font-semibold">
+		{{ range .Pages }}
+		<div class="flex-col m-2">
+			<div>
+				<h1 class="text-2xl lg:text-5xl"><a href="{{ .RelPermalink }}"> {{ .Title }}</a></h1>
+			</div>
+			<div class="flex flex-row justify-between mt-2 mb-2 mr-4 ml-4">
+
+				<p class="text-xl mr-4 justify-center font-normal">{{ .Params.tags }}</p>
+				<p class="text-xl mr-4 justify-center font-thin italic">{{ .Date.Format "January 2, 2006" }}</p>
+			</div>
+		</div>
+		{{ end }}
+	</div>
+
+</div>
+
+{{ end }}
