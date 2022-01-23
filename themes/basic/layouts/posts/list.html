@@ -1,15 +1,17 @@
 {{ define "main" }}
 
 
-<div class="justify-center ml-6 py-10">
 
-	<span class="p-2 justify-center text-white text-4xl font-bold bg-black"> Recent Posts </span>
+<article class="flex flex-col items-center">
 
-</div>
+	<div class="ml-6 py-10 justify-self-start">
+
+		<span class="p-2 text-white text-4xl font-bold bg-black"> Recent Posts </span>
+
+	</div>
 
 
-<div class="flex justify-center">
-	<div class="flex flex-col w-2/3 text-black font-semibold">
+	<div class="flex flex-col  text-black font-semibold">
 		{{ range .Pages }}
 		<div class="flex-col m-2">
 			<div>
@@ -24,6 +26,6 @@
 		{{ end }}
 	</div>
 
-</div>
+</article>
 
 {{ end }}
