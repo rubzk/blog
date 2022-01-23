@@ -5,7 +5,10 @@
 
 		<header class="text-black pt-10 pb-24 items-center w-3/4">
 			<div>
-				<h1 class="text-2xl font-thin p-2">{{ .Date.Format "January 2, 2006" }}</h1>
+				<div class="py-2">
+					<span class="bg-black text-white text-2xl font-semibold p-1">{{ .Date.Format "January 2, 2006" }}
+
+				</div>
 				<h1 class="text-6xl font-bold"> {{ .Title }} </h1>
 				<div class="flex flex-row pt-4">
 					<p class="mr-4 text-xl">
