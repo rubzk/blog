@@ -1,35 +1,33 @@
 {{ define "main" }}
-<div class="flex flex-row min-h-screen justify-center">
+<div class="flex flex-row min-h-screen justify-center w-full">
 
-	<div class="flex flex-col">
+	<div class="flex flex-col items-center">
 
-		<header class="text-white py-10">
+		<header class="text-black pt-10 pb-24 items-center w-3/4">
 			<div>
-				<h1 class="text-4xl font-bold "> {{ .Title }} </h2>
-					<div class="flex flex-row"> 
-						<p class="mr-4"> 
-							by {{ .Params.Author }}
-							</p>
-							<p class="mr-4">
-							Posted {{ .Date.Format "January 2, 2006" }}
-							</p>
-							<p class="mr-4">
-							Reading time: {{ .ReadingTime}}m
-							</p>
-					</div>
-					
+				<h1 class="text-2xl font-thin p-2">{{ .Date.Format "January 2, 2006" }}</h1>
+				<h1 class="text-6xl font-bold"> {{ .Title }} </h1>
+				<div class="flex flex-row pt-4">
+					<p class="mr-4 text-xl">
+						tags: {{ .Params.tags }}
+					</p>
+					<p class="mr-4 text-xl">
+						Reading time: {{ .ReadingTime}}m
+					</p>
+				</div>
+
 			</div>
-			
+
 		</header>
 
-		<article class="prose lg:prose-xl prose-p:text-white prose-headings:text-white items-center">
-				<section class="body">
-						{{ .Content}}
-				</section>
+		<article class="prose lg:prose-xl  items-center">
+			<section class="body">
+				{{ .Content}}
+			</section>
 		</article>
 
 	</div>
 
-		
+
 </div>
 {{ end }}
