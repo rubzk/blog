@@ -1,5 +1,5 @@
 const path = require("path");
-const { fontFamily } = require('tailwindcss/defaultTheme')
+const { fontFamily, fontWeight } = require('tailwindcss/defaultTheme')
 
 module.exports = {
   purge: {
@@ -22,13 +22,21 @@ module.exports = {
         DEFAULT: {
           css: {
             p: {
-              color: '#e76f51'
+              color: '#4B443C'
+            },
+            h1: {
+              color: '#0A0A00',
+              fontWeight: 600
             },
             h2: {
-              color: '#e76f51'
+              color: '#0A0A00',
+              fontWeight: 600
             },
             h3: {
-              color: '#e766f51'
+              color: '#0A0A00'
+            },
+            h4: {
+              color: '#0A0A00'
             }
           },
         },
