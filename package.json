@@ -17,14 +17,5 @@
     "postcss-cli": "^8.3.1",
     "postcss-import": "^14.0.0",
     "tailwindcss": "^2.2.16"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rubzk/rugo-website.git"
-  },
-  "keywords": [],
-  "bugs": {
-    "url": "https://github.com/rubzk/rugo-website/issues"
-  },
-  "homepage": "https://github.com/rubzk/rugo-website#readme"
+  }
 }
