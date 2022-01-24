@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "http://rubzk.github.io/blog"
 languageCode = "en-us"
 title = "rubz.dev"
 theme = "basic"
