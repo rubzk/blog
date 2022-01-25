@@ -1,4 +1,4 @@
-baseURL = "http://example.org/"
+baseURL = "http://rubzk.github.io/"
 languageCode = "en-us"
 title = "rubz.dev"
 theme = "basic"
@@ -13,3 +13,6 @@ pygmentsCodefences = true
  description = "My kind of portafolio"
 
 
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"

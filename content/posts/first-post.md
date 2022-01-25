@@ -9,8 +9,7 @@ tags: programming, python
 ## Title 2
 ### Title 3
 
-**italic**
-_* bold i think *_
+**bold font** and this is **italic** and both of them combined are like ***this***
 
 
 
