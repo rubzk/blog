@@ -8,17 +8,13 @@ draft: false
 ## basic bio:
 
 
-my name is tomas but my childhood nickname is **rubio** which means blond in spanish and after a while I decided to change it to **rubz**.
-I majored in business but my skeptcisim and curiosity lead me to the world of data two years ago and since then I can't stop learning.
+My name is Tomas but my childhood nickname is **rubio** , *which means blond in spanish*,  and after a while I decided to change it to **rubz**.
+
+I majored in business but in 2018, my skeptcisim and curiosity lead me to the world of data and programming  and since then I found motivation to learn new things.
+
+![profile](https://i.imgur.com/bpb9Lpy.jpg)
+
+I consider my self as a curious person, I like to learn new things and to read books about everything. In 2021 I try readig philosophy and actually become an enthusiast about it. I identify myself with stoic way of thinking.
 
 
-I consider my self as a curious person, I like to learn new things and to read books about everything. 
 
-recent
-
-[this is a link](www.google.com)
-
-![img](https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Y2hhbmdlfGVufDB8fDB8fA%3D%3D&w=1000&q=80)
-
-
->> I went to the **bathroom** to see ***him***
