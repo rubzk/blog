@@ -6,7 +6,7 @@
 
 	<div class="ml-6 py-16 justify-self-start">
 
-		<span class="p-2 text-white text-4xl font-bold bg-black"> Recent Posts </span>
+		<span class="p-2 text-white  text-2xl md:text-4xl font-bold bg-black"> Recent Posts </span>
 
 	</div>
 
@@ -15,12 +15,13 @@
 		{{ range .Pages }}
 		<div class="flex-col m-2">
 			<div>
-				<h1 class="text-2xl lg:text-5xl"><a href="{{ .RelPermalink }}"> {{ .Title }}</a></h1>
+				<h1 class="text-lg md:text-5xl"><a href="{{ .RelPermalink }}"> {{ .Title }}</a></h1>
 			</div>
 			<div class="flex flex-row justify-between mt-2 mb-2 mr-4 ml-4">
 
-				<p class="text-xl mr-4 justify-center font-normal">{{ .Params.tags }}</p>
-				<p class="text-xl mr-4 justify-center font-thin italic">{{ .Date.Format "January 2, 2006" }}</p>
+				<p class="text-xs md:text-xl mr-4 justify-center font-normal">{{ .Params.tags }}</p>
+				<p class="text-xs md:text-xl mr-4 justify-center font-thin italic">{{ .Date.Format "January 2, 2006" }}
+				</p>
 			</div>
 		</div>
 		{{ end }}
