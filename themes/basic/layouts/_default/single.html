@@ -1,14 +1,14 @@
 {{ define "main" }}
-<div class="flex flex-row min-h-screen justify-center py-16">
+<div class="flex flex-row min-h-screen justify-center py-16 px-4">
 	<article>
 
 		<div>
-			<span class="p-2 text-6xl text-white bg-black font-bold"> {{ .Title }} </span>
+			<span class="p-2 text-2xl md:text-6xl text-white bg-black font-bold"> {{ .Title }} </span>
 		</div>
 
 
 
-		<div class="prose lg:prose-xl py-6">
+		<div class="prose md:prose-xl py-6">
 
 			{{ .Content }}
 
