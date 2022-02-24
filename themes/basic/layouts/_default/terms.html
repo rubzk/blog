@@ -1,0 +1,45 @@
+{{ define "main" }}
+
+
+
+<article class="flex flex-col items-center min-h-screen">
+
+    <div class="ml-6 pt-16 justify-self-strat flex flex-col">
+
+        <span class="p-2 text-white text-2xl md:text-4xl font-bold bg-black"> {{ .Page.Title }}</span>
+
+    </div>
+
+    <div class="pt-4 flex flex-row justify-center w-3/4">
+
+        {{ range .Data.Terms.Alphabetical}}
+
+        <div class="flex flex-row pr-6">
+
+            <div class="p-1 bg-black text-white font-bold">
+
+                <a class="text-2xl" href="{{ .Page.Permalink}}">
+                    {{ .Page.Title }}
+                </a>
+                <span class="text-2xl "> [{{ .Count }}]</span>
+
+            </div>
+
+
+
+        </div>
+
+
+
+
+        {{ end }}
+
+
+    </div>
+
+
+
+</article>
+
+
+{{ end }}
