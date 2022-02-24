@@ -1,0 +1,44 @@
+{{ define "main" }}
+
+
+<article class="flex flex-col items-center min-h-screen">
+
+    <div class="ml-6 pt-16 justify-self-start flex flex-col">
+
+        <span class="p-2 text-white  text-2xl md:text-4xl font-bold bg-black"> {{ .Title }} </span>
+
+
+    </div>
+
+
+    <div class="pt-4 flex flex-col  text-black font-semibold">
+
+        {{ range .Pages }}
+        <div class="flex-col m-2">
+
+            <div>
+                <h1 class="text-lg md:text-5xl"><a href="{{ .RelPermalink }}"> {{ .Page.Title }}</a></h1>
+            </div>
+
+
+            <div class="flex flex-row justify-between py-4">
+                <p class="text-xs md:text-xl  justify-center font-thin italic">{{ .Date.Format "January 2, 2006" }}
+                </p>
+            </div>
+
+
+
+        </div>
+
+        {{ end }}
+
+
+    </div>
+
+
+
+</article>
+
+
+
+{{ end }}
