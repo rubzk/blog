@@ -4,11 +4,20 @@
 
 <article class="flex flex-col items-center min-h-screen">
 
-	<div class="ml-6 py-16 justify-self-start">
+	<div class="ml-6 pt-16 justify-self-start flex flex-col">
 
 		<span class="p-2 text-white  text-2xl md:text-4xl font-bold bg-black"> Recent Posts </span>
 
+
 	</div>
+
+	<div class="ml-6 py-2 justify-self-start flex flex-col">
+
+		<a href="/tags/" class="p-2 text-white text-xl md:text-2xl font-bold bg-black"> All tags</a>
+
+	</div>
+
+
 
 
 	<div class="flex flex-col  text-black font-semibold">
@@ -20,7 +29,9 @@
 			<div class="flex flex-row justify-between py-4">
 				<div>
 					{{ range .Params.tags }}
-					<a class="tag text-cs md:text-xl  font-normal" href="/tags/{{ . | urlize}}">{{ . }}</a>
+					<a class="tag text-cs md:text-xl  font-bold bg-black text-white p-1" href="/tags/{{ . | urlize}}">{{
+						.
+						}}</a>
 					{{ end }}
 				</div>
 				<p class="text-xs md:text-xl  justify-center font-thin italic">{{ .Date.Format "January 2, 2006" }}
