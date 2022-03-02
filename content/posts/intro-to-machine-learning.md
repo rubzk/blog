@@ -2,7 +2,7 @@
 title: "Intro to Machine Learning for begginners"
 date: 2020-06-29T19:21:50+01:00
 draft: false
-tags: programming, python, machine-learning
+tags: ["programming", "python", "machine-learning"]
 ---
 
 Following advice from leaders in the world of DS (Data Science) in Argentina, I decided to look for an old notebook that I had made to practice and write a short article that may help someone understand what is done in data science or able to introduce someone who has not the slightest idea in basic concepts.
