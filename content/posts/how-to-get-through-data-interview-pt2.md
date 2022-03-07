@@ -1,5 +1,5 @@
 ---
-title: "How to Get Through Data Interview Part 2"
+title: "How to tet through a Data interview Part 2"
 date: 2021-12-09T18:51:19+01:00
 draft: false
 tags: ['programming', 'python', 'stats']

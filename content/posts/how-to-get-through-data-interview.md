@@ -1,5 +1,5 @@
 ---
-title: "How to get through an Data Interview Part 1"
+title: "How to get through a Data interview Part 1"
 date: 2021-10-27T00:19:32+01:00
 draft: false
 tags: ["sql"]
