@@ -6,13 +6,13 @@ tags: ["programming", "python", "clustering"]
 ---
 
 
-## Have you ever wondered how companies or Apps do to recommend moderately successful content to what we are consuming?
+## Have you ever wondered how companies or apps do to recommend moderately successful content?
 
 ![img](https://miro.medium.com/max/681/1*-pEHTlOdX_7mlvzk3UUHPQ.png)
 
-When I asked myself this question I thought that obviously they must have a lot of information about their products such as Mercado Libre or Amazon: Product categories, weight, our purchase and search history, which product is usually bought together with another and so we can continue thinking of variables that could help recommend a product to a potential buyer.
+When I asked myself this question I thought that obviously they must have a lot of information about their products such as Mercado Libre or Amazon: Product categories, weight, purchase and search history, which product is usually bought together with  and so we can continue thinking of variables that could help recommend a product to a potential buyer.
 
-But then I changed the focus of my thinking towards more intangible products such as music. Although music could be acquired in a tangible way in the form of CDs, we all know that today the music business does not work that way if not digitally. Several companies have emerged from this new business model and one of them is Spotify, which I think does not need to present it due to its wide popularity. Now going back to my previous thought, Spotify not only has our searches, playlists and most listened songs to be able to recommend new music to us, but it can also afford to perform an analysis of the music to find more features that lead to a better recommendation.
+But then I changed the focus of my thinking towards more intangible products such as music. Although music could be acquired in a tangible way in the form of CDs, we all know that today the music business does not work that way if not digitally. Several companies have emerged from this new business model and one of them is Spotify, which I think does not need to present it due to its wide popularity. Now going back to my previous thought, Spotify not only has our searches, playlists and most listened songs, but it can also afford to perform an analysis of the music to find more features that lead to a better recommendation.
 
 ![img](https://miro.medium.com/max/1400/1*8-BtIdanLJEUtSKkoqSmAw.png)
 
@@ -20,7 +20,7 @@ Researching their official API, I found that they offer a request in which one c
 
 ---
 
-Having found this functionality I came up with the following: use an unsupervised algorithm so that with all my lists, I generate different clusters according to the features of the API.
+Having found this functionality I came up with the following: ***use an unsupervised algorithm so that with all my lists, I generate different clusters according to the features of the API.***
 
 ## First Step: Create Keys to access the API
 
@@ -59,7 +59,7 @@ sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 ## Second Step: Extract the data from the API and process it:
 
 Now that we have the credentials loaded in the jupyter notebook, we can start making basic queries to see the API responses.
-I first thought that in order to extract all my songs I would have to be able to extract all my playlists. The get_user_playlist() function allows us to fetch all our playlists, with many specifications for each one.
+I first thought that in order to extract all my songs I would have to be able to extract all my playlists. The `get_user_playlist()` function allows us to fetch all our playlists, with many specifications for each one.
 
 ***Note:*** As you can see, I am going to show only the first result because if I paste the entire result, the post would take forever.
 
@@ -67,7 +67,7 @@ I first thought that in order to extract all my songs I would have to be able to
 
 ![img](https://miro.medium.com/max/1400/1*yNhW5Sugcrm8wO8t38VpqQ.png)
 
-As we can see, the API provides us with the details of each playlist that my user has, the most important data we need is the id to later use it in conjunction with the get_playlists_tracks() function
+As we can see, the API provides us with the details of each playlist that my user has, the most important data we need is the id to later use it in conjunction with the `get_playlists_tracks()` function
 
 `sp.playlist_tracks('39ATQymddYN7NyYh9o1wJt')['items'][0]`
 
@@ -133,17 +133,19 @@ The result returns a Data Frame like this:
 
 ![img](https://miro.medium.com/max/1400/1*lpwJhlSKYSFhhV7t3NixGA.png)
 
+---
+
 ## Third Step: Data clustering:
 
-As a name at the beginning of the post, my idea was to use an unsupervised algorithm, but what is this?
+As the name at the beginning of the post, my idea was to use an unsupervised algorithm, but what is this?
 
-Unsupervised learning is a technique used in machine learning where the algorithm feeds on our data set and the selected features to be able to cluster (divide into segments) according to some pattern found in the data. It feeds on “unlabeled” data, that is to say that in this case we are not trying to make the algorithm predict something, but to explore it by itself.
+***Unsupervised learning*** is a technique used in machine learning where the algorithm feeds on our data set and the selected features to be able to cluster (divide into segments) according to some pattern found in the data. It feeds on “unlabeled” data, that is to say that in this case we are not trying to make the algorithm predict something, but to explore it by itself.
 
 
 ![img](https://miro.medium.com/max/1192/1*CSPfuqAIzu__DCNhuRw_DA.png)
 
 
-One of the best known unsupervised algorithms is K-means, which is the one we will use in this post. But before continuing with the algorithm process I want to explain the features that I chose for this clustering.
+One of the best known unsupervised algorithms is **K-means**, which is the one we will use in this post. But before continuing with the algorithm process I want to explain the features that I chose for this clustering.
 
 ```python
 features = ['danceability','energy','acousticness'
