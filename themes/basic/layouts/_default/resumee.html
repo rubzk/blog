@@ -1,46 +1,80 @@
 {{ define "main" }}
 <div class="flex flex-row min-h-screen  py-16 px-4">
 
-    <div class="container mx-auto p-8">
-        <div class="flex items-center justify-between">
-            <h1 class="text-3xl font-bold">Tomas Ertola</h1>
-            <img src="https://via.placeholder.com/150" alt="Profile picture" class="w-24 h-24 rounded-full" />
-        </div>
-        <div class="mt-8 text-gray-700">
-            <h2 class="text-2xl font-bold">Work Experience</h2>
-            <div class="mt-4">
-                <h3 class="text-xl font-bold">Product Data Analyst</h3>
-                <div class="flex flex-row"><img width="48"
-                        src="https://media.licdn.com/dms/image/D4D0BAQEwxdiNWB86IQ/company-logo_100_100/0/1664287504775?e=1680739200&v=beta&t=WOzncccLHoQrQHWg0foPD68_cPlclJqSiAjBYYdESSI"
-                        height="48">
+    <div class="container mx-auto px-48">
+        <div class="flex items-center justify-start bg-gray-500">
+            <img src="https://via.placeholder.com/150" alt="Profile picture" class="w-36 h-36 rounded-full" />
+            <h1 class="text-6xl px-4 font-bold font-resumee">Tomás Ertola</h1>
 
-                    <p class="mt-2"><a href="https://glovoapp.com/" target="_blank">Glovo</a>(Nov 2021 - Dec 2022)</p>
+        </div>
+        <div class="mt-8 text-gray-700 ">
+            <h2 class="text-4xl font-bold text-gray-900">Work Experience</h2>
+
+            <div class="flex flex-col mt-4">
+
+                <div class="flex flex-row justify-start items-center">
+
+                    <img width="48" height="48"
+                        src="https://i.pinimg.com/originals/a8/71/4c/a8714cadb2358c6a32ce232025eb13fe.png">
+
+                    <h3 class="px-2 text-2xl font-bold">Product Data Analyst</h3>
+
+
                 </div>
+
+                <div class="flex flex-col">
+
+
+                    <h3 class="mt-2"><a href="https://glovoapp.com/" target="_blank">Glovo</a> (Nov 2021 - Dec 2022)
+                    </h3>
+
+                    <h4 class="py-1 font-bold text-black">Stack: SQL, Python </h4>
+
+                </div>
+
 
             </div>
 
 
-            <div class="mt-4">
-                <h3 class="text-xl font-bold">Data Scientist</h3>
-                <div class="flex flex-row">
-                    <img width="48"
-                        src="https://media.licdn.com/dms/image/C4D0BAQGfHTq2hMCPVg/company-logo_100_100/0/1591124348931?e=1680739200&amp;v=beta&amp;t=8ZSL-HG6Dz-FBvoncyQfO-l-3T4OfutqcteHzoiUCsE"
+            <div class="flex flex-col mt-4">
+                <div class="flex flex-row justify-start items-center">
+
+                    <img width="48" src="https://pbs.twimg.com/profile_images/1493252157486903302/w_fwe6MW_400x400.jpg"
                         height="48">
+
+                    <h3 class=" px-2 text-2xl font-bold">Data Scientist</h3>
+
+                </div>
+
+                <div class="flex flex-col">
+
                     <p class="mt-2"><a href="https://www.bancodelsol.com/" target="_blank">Banco del Sol</a> (Nov 2020 -
                         Nov 2021)</p>
+
+                    <h4 class="py-1 font-bold text-black">Stack: SQL, Python </h4>
                 </div>
 
             </div>
 
-            <div class="mt-4">
-                <h3 class="text-xl font-bold">Jr. Data Scientist</h3>
-                <div class="flex flex-row">
+            <div class="flex flex-col mt-4">
+                <div class="flex flex-row justify-start items-center">
 
                     <img width="48"
-                        src="https://media.licdn.com/dms/image/C4E0BAQHku1KwibZnRg/company-logo_100_100/0/1552056399340?e=1680739200&amp;v=beta&amp;t=Cx4CjxwT9OhMk4c89kSu7Ckdk1aai3CSTFX6siSoe08"
+                        src="data:image/jpeg;base64,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"
                         height="48">
+
+                    <h3 class="px-2 text-2xl font-bold">Jr. Data Scientist</h3>
+
+
+                </div>
+
+                <div class="flex flex-col">
+
+
                     <p class="mt-2"><a href="https://leafnoise.io/" target="_blank">Leafnoise</a> (Feb 2020 - Nov 2020)
                     </p>
+
+                    <h4 class="py-1 font-bold text-black">Stack: SQL, Python </h4>
 
                 </div>
 
