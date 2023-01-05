@@ -15,8 +15,7 @@ module.exports = {
 
       fontFamily: {
         ...fontFamily,
-        'sans': 'Helvetica, sans-serif',
-        'mono': 'Space Mono, mono'
+        'sans': 'Helvetica, sans-serif'
       },
 
       typography: (theme) => ({
