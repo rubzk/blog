@@ -13,6 +13,12 @@ pygmentsCodefences = true
  description = "My kind of portafolio"
 
 
+
+
 contentdir = "content"
 layoutdir = "layouts"
 publishdir = "public"
+
+
+[params.sections.resume]
+layout = "main"
