@@ -6,7 +6,7 @@ For the front-end I am using [TailwindCSS](https://tailwindcss.com/) which is a 
 
 # Actions:
 
-This repo also has github actions enabled to automatically build and push to production in [rubz.dev](rubz.dev) automatically.
+This repo also has github actions enabled to automatically build and push to production in [rubz.dev](https://rubz.dev) automatically.
 
 ## To Do:
 
