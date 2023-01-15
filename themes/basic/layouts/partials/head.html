@@ -1,24 +1,25 @@
 <head>
-         <meta charset="utf-8">
-		 <meta name="viewport" content="width=device.width, initial-scale=1">
-		 <!-- site title -->
-		 <title> {{ .Site.Title}} </title>
-		 <!-- google fonts -->
-		 <link rel="preconnect" href="https://fonts.googleapis.com">
-		 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		 <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
-		 <!-- style sheets -->
-		  
-		 <!-- desccription -->
-		 {{ $css := resources.Get "css/main.css" }}
-		 {{ if .Site.IsServer }}
-		 {{ $style := $css | resources.PostCSS }}
-		 <link rel="stylesheet" href="{{ $style.RelPermalink }}">
-		 {{ else }}
-		 {{ $style := $css | resources.PostCSS | minify | fingerprint | resources.PostProcess }}
-		 <link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
-		 {{ end }}
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device.width, initial-scale=1">
+	<!-- site title -->
+	<title> {{ .Site.Title}} </title>
+	<!-- google fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+	<!-- style sheets -->
 
-		
-  </head>
+	<!-- desccription -->
+	{{ $css := resources.Get "css/main.css" }}
+	{{ if .Site.IsServer }}
+	{{ $style := $css | resources.PostCSS }}
+	<link rel="stylesheet" href="{{ $style.RelPermalink }}">
+	{{ else }}
+	{{ $style := $css | resources.PostCSS | minify | fingerprint | resources.PostProcess }}
+	<link rel="stylesheet" href="{{ $style.RelPermalink }}" integrity="{{ $style.Data.Integrity }}">
+	{{ end }}
 
+	{{ partial "google_analytics.html" . }}
+
+
+</head>
