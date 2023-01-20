@@ -1,6 +1,6 @@
 ---
 title: "Projects"
-draft: True
+draft: False
 ---
 
 
