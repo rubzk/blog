@@ -15,22 +15,30 @@
 
         <div class="flex flex-col  text-black font-semibold bg-red-500 mt-16">
             {{ range .Pages }}
-            <div class="flex-col m-2">
-                <div>
-                    <h1 class="text-lg md:text-5xl"><a href="{{ .RelPermalink }}"> {{ .Title }}</a></h1>
-                </div>
-                <div class="flex flex-row justify-between py-4 bg-red">
+            <div class="flex flex-row m-2">
+                <div class="flex flex-row">
+
+                    <img width="200" height="200" src="https://via.placeholder.com/150">
+
                     <div>
-                        {{ range .Params.tags }}
-                        <a class="tag text-cs md:text-xl  font-bold bg-black text-white p-1"
-                            href="/tags/{{ . | urlize}}">{{
-                            .
-                            }}</a>
-                        {{ end }}
+                        <h1 class="text-lg md:text-5xl"><a href="{{ .RelPermalink }}"> {{ .Title }}</a></h1>
                     </div>
-                    <p class="text-xs md:text-xl  justify-center font-thin italic">{{ .Date.Format "January 2, 2006" }}
-                    </p>
+                    <div class="flex flex-row justify-between py-4 bg-red">
+                        <div>
+                            {{ range .Params.tags }}
+                            <a class="tag text-cs md:text-xl  font-bold bg-black text-white p-1"
+                                href="/tags/{{ . | urlize}}">{{
+                                .
+                                }}</a>
+                            {{ end }}
+                        </div>
+                        <p class="text-xs md:text-xl  justify-center font-thin italic">{{ .Date.Format "January 2, 2006"
+                            }}
+                        </p>
+                    </div>
+
                 </div>
+
             </div>
             {{ end }}
         </div>
