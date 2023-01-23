@@ -2,7 +2,7 @@
 
 <div class="flex flex-col min-h-screen">
 
-    <div class="container mx-auto bg-stone-500 py-12">
+    <div class="container mx-auto py-12">
 
         <div class="flex flex-col items-center mt-12">
 
@@ -13,29 +13,35 @@
         </div>
 
 
-        <div class="flex flex-col  text-black font-semibold bg-red-500 mt-16">
+        <div class="flex flex-col  text-black font-semibold mt-16 items-center">
             {{ range .Pages }}
-            <div class="flex flex-row m-2">
-                <div class="flex flex-row">
+            <div class="flex flex-row m-6 items-center shadow-md ">
+                <img class="p-2" width="200" height="200" src="https://via.placeholder.com/150">
+                <div class="p-2  flex flex-col">
 
-                    <img width="200" height="200" src="https://via.placeholder.com/150">
 
-                    <div>
+
+                    <div class="flex-1 flex-row  justify-between items-center py-4">
                         <h1 class="text-lg md:text-5xl"><a href="{{ .RelPermalink }}"> {{ .Title }}</a></h1>
-                    </div>
-                    <div class="flex flex-row justify-between py-4 bg-red">
+
                         <div>
-                            {{ range .Params.tags }}
-                            <a class="tag text-cs md:text-xl  font-bold bg-black text-white p-1"
-                                href="/tags/{{ . | urlize}}">{{
+                            {{ range .Params.tech_used }}
+                            <a class="tag text-cs md:text-xl  font-bold bg-black text-white p-1">{{
                                 .
                                 }}</a>
                             {{ end }}
                         </div>
-                        <p class="text-xs md:text-xl  justify-center font-thin italic">{{ .Date.Format "January 2, 2006"
-                            }}
-                        </p>
+
+
                     </div>
+                    <div>
+                        <p class="prose  p-1">{{ .Summary}}</p>
+
+                    </div>
+
+                    <p class="text-xs md:text-xl  justify-center font-thin italic">{{ .Date.Format "January 2, 2006"
+                        }}
+                    </p>
 
                 </div>
 
