@@ -15,15 +15,15 @@
 
         <div class="flex flex-col  text-black font-semibold mt-16 items-center">
             {{ range .Pages }}
-            <div class="flex flex-row m-6 items-center shadow-xl rounded-lg ">
-                <img class="p-2" width="200" height="200" src="https://via.placeholder.com/150">
+            <div class="flex flex-row m-6 items-center shadow-xl rounded-lg w-3/4 ">
+                <img class="p-2 object-cover" width="200" height="600" src="{{ .Params.image }}">
                 <div class="p-2  flex flex-col">
 
 
 
                     <div class="flex flex-row  justify-between items-center py-4">
-                        <div class="flex flex-row justify-center items-center">
-                            <h1 class="text-lg md:text-5xl">{{ .Title }}</a></h1>
+                        <div class="flex flex-row justify-between items-center">
+                            <h1 class="text-4xl ">{{ .Title }}</a></h1>
 
                             <a class="p-2" href="{{ .Params.url_repo}}" target="_blank">
 
