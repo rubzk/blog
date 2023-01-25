@@ -4,7 +4,7 @@ const { fontFamily, fontWeight } = require('tailwindcss/defaultTheme')
 module.exports = {
   purge: {
     enabled: process.env.HUGO_ENVIRONMENT === "production",
-    content: [path.resolve(__dirname) + "/layouts/**/*.html"],
+    content: ["./themes/basic/layouts/**/*.html"],
     options: {
       whitelist: [],
     },

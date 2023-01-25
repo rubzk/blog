@@ -4,18 +4,21 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "serve": "hugo server --disableFastRender",
+    "serve": "hugo server --disableFastRender --disableLiveReload",
     "serve:network": "hugo server --bind=0.0.0.0 --baseURL=http://0.0.0.0:1313 --disableFastRender",
     "build": "hugo --gc --minify"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@tailwindcss/typography": "^0.4.1",
+    "@tailwindcss/typography": "^0.5.8",
     "autoprefixer": "^10.2.3",
-    "postcss": "^8.2.4",
+    "postcss": "^8.4.1",
     "postcss-cli": "^8.3.1",
     "postcss-import": "^14.0.0",
-    "tailwindcss": "^2.2.16"
+    "tailwindcss": "^3.2.4"
+  },
+  "dependencies": {
+    "watch": "^0.13.0"
   }
 }
