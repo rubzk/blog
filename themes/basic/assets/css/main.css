@@ -15,6 +15,18 @@
     .will-change-transform {
         will-change: transform;
     }
+
+    .nav {
+        @apply relative border-orange-800 text-xl font-sans font-bold p-4 border-2 tracking-[1px]
+    }
+
+    .nav::after {
+        @apply content-[''] bg-orange-800 h-[3px] w-[0%] -left-0 -bottom-[5px] absolute duration-300
+    }
+
+    .nav:hover::after {
+        @apply w-[100%]
+    }
 }
 
 .cursor::after {
@@ -26,17 +38,4 @@
     background-color: #fff;
     animation: cursor 0.6s linear infinite alternate;
     will-change: opacity;
-}
-
-@keyframes cursor {
-
-    0%,
-    40% {
-        opacity: 1;
-    }
-
-    60%,
-    100% {
-        opacity: 0;
-    }
 }
