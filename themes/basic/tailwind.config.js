@@ -15,7 +15,7 @@ module.exports = {
 
       fontFamily: {
         ...fontFamily,
-        'sans': 'Monserrat, sans-serif'
+        'sans': 'Lato, sans-serif'
       },
       maxWidth: {
         '96': '24rem',

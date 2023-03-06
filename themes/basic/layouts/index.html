@@ -1,60 +1,64 @@
 {{ define "main" }}
 <div class="w-full min-h-screen">
-  <div class="py-12 sm:px-2">
+  <div class="py-12 sm:px-2 bg-amber-50">
     <div class="flex flex-col justify-center p-10  max-w-s mx-auto  sm:w-3/4 md:w-2/4 rounded-xl text-black">
       <div>
-        <div class="relative">
+        <div class="relative py-6">
 
           <div
             class="absolute w-96 top-0 left-72  h-96 bg-green-400 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob">
-
-
           </div>
 
           <div
             class="absolute top-0 left-42  w-96 h-96 bg-yellow-400 rounded-full mix-blend-multiply filter blur-xl  opacity-70 animate-blob animation-delay-2000 ">
-
-
-
           </div>
 
           <div
             class="absolute left-56 -bottom-12  w-96 h-96 bg-purple-400 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000">
-
-
-
           </div>
 
 
           <img class=" w-96 h-96 mx-auto shadow-xl rounded-full object-cover drop-shadow-sm mt-2" src="/images/pic2.jpg"
             alt="profile-photo">
-
         </div>
 
 
         <div class="text-center mt-5">
 
-          <h1 class="text-6xl pt-6 font-sans font-semibold">
-            hi, I'm
-            <span class="relative">
-              <span class="inline-flex h-20 pt-2 animate-type group-hover:animate-type-reverse  ">
-                Tomas 👋
-              </span>
+          <h1 class="text-6xl pt-6 font-sans font-extrabold text-stone-800">
+            hi, I'm Tomas 👋
           </h1>
 
-          <h2>
-            SQL and business master during the day,
-            wannabe programmer during the night.
+          <h2 class=" text-2xl pt-4 font-extrabold text-orange-800 ">
+            product analyst during the day, developer during the night
+
           </h2>
 
-          <div class="font-mono text-lg font-semibold pt-2 pb-4 px-8 opacity-0">
-            <p class=>During the day I'm a SQL an</p>
-          </div>
+        </div>
+
+        <div class="flex flex-row justify-around py-10">
+
+          <a class="border-orange-800 text-xl font-sans bond-bold p-6">
+            about me
+          </a>
+          <a class="border-orange-800 text-xl font-sans bond-bold p-6">
+            stack
+          </a>
+          <a class="border-orange-800 text-xl font-sans bond-bold p-6">
+            projects
+          </a>
+          <a class="border-orange-800 text-xl font-sans bond-bold p-6">
+            resumee
+          </a>
+          <a class="border-orange-800 text-xl font-sans bond-bold p-6">
+            posts
+          </a>
+
         </div>
 
 
 
-        <div class="flex flex-row justify-center mt-3 mb-3 items-center border-gray-200 ">
+        <div class="flex flex-row justify-center mt-3 mb-3 items-center border-gray-200 opacity-0 ">
 
           <a href="https://github.com/rubzk" target="_blank">
 
@@ -111,17 +115,7 @@
           </a>
 
         </div>
-        <div class="py-6">
-          <span class="text=xs p-2 justify-center md:text-2xl font-bold italic bg-black text-white">A constant
-            learner driven by my
-            inexhaustible
-            curiosity.
-          </span>
-        </div>
 
-        <div class="hidden md:flex flex-col">
-          <img class="items-center" src="https://ghchart.rshah.org/000000/rubzk" alt="2016rshah's Github chart" />
-        </div>
 
       </div>
     </div>
