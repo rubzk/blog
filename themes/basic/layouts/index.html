@@ -1,21 +1,58 @@
 {{ define "main" }}
 <div class="w-full min-h-screen">
-  <div class="py-32 sm:px-2">
-    <div
-      class="flex flex-col justify-center p-10  max-w-s mx-auto  sm:w-3/4 md:w-2/4 rounded-xl text-black md:border-2 md:border-black">
+  <div class="py-12 sm:px-2">
+    <div class="flex flex-col justify-center p-10  max-w-s mx-auto  sm:w-3/4 md:w-2/4 rounded-xl text-black">
       <div>
-        <img class="h-64 w-64 mx-auto shadow-xl rounded-full drop-shadow-sm mt-2 object-cover" src="/images/pic2.jpg"
-          alt="profile-photo">
-      </div>
-      <div class="text-center mt-5">
+        <div class="relative">
 
-        <p class="text-4xl font-bold">
-          tomás ertola
-        </p>
+          <div
+            class="absolute w-96 top-0 left-72  h-96 bg-green-400 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob">
 
-        <div class="font-mono text-lg font-semibold pt-2 pb-4 px-8">
-          <p class=>a.k.a rubz</p>
+
+          </div>
+
+          <div
+            class="absolute top-0 left-42  w-96 h-96 bg-yellow-400 rounded-full mix-blend-multiply filter blur-xl  opacity-70 animate-blob animation-delay-2000 ">
+
+
+
+          </div>
+
+          <div
+            class="absolute left-56 -bottom-12  w-96 h-96 bg-purple-400 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000">
+
+
+
+          </div>
+
+
+          <img class=" w-96 h-96 mx-auto shadow-xl rounded-full object-cover drop-shadow-sm mt-2" src="/images/pic2.jpg"
+            alt="profile-photo">
+
         </div>
+
+
+        <div class="text-center mt-5">
+
+          <h1 class="text-6xl pt-6 font-sans font-semibold">
+            hi, I'm
+            <span class="relative">
+              <span class="inline-flex h-20 pt-2 animate-type group-hover:animate-type-reverse  ">
+                Tomas 👋
+              </span>
+          </h1>
+
+          <h2>
+            SQL and business master during the day,
+            wannabe programmer during the night.
+          </h2>
+
+          <div class="font-mono text-lg font-semibold pt-2 pb-4 px-8 opacity-0">
+            <p class=>During the day I'm a SQL an</p>
+          </div>
+        </div>
+
+
 
         <div class="flex flex-row justify-center mt-3 mb-3 items-center border-gray-200 ">
 
