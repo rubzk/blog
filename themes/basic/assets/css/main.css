@@ -48,6 +48,10 @@
     .wave .shape-fill {
         fill: #065f46;
     }
+
+    html {
+        scroll-behavior: smooth;
+    }
 }
 
 .cursor::after {
