@@ -17,15 +17,36 @@
     }
 
     .nav {
-        @apply relative border-orange-800 text-xl font-sans font-bold p-4 border-2 tracking-[1px]
+        @apply relative border-orange-800 text-xl font-sans font-extrabold p-4 border-2 tracking-[1px]
     }
 
     .nav::after {
-        @apply content-[''] bg-orange-800 h-[3px] w-[0%] -left-0 -bottom-[5px] absolute duration-300
+        @apply content-[''] bg-orange-800 h-[3px] w-[0%] -left-0 -bottom-[5px] absolute duration-500
     }
 
     .nav:hover::after {
         @apply w-[100%]
+    }
+
+    .wave {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+        transform: rotate(180deg);
+    }
+
+    .wave svg {
+        position: relative;
+        display: block;
+        width: calc(147% + 1.3px);
+        height: 137px;
+    }
+
+    .wave .shape-fill {
+        fill: #065f46;
     }
 }
 

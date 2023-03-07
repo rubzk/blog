@@ -15,7 +15,7 @@ module.exports = {
 
       fontFamily: {
         ...fontFamily,
-        'sans': 'Lato, sans-serif'
+        'sans': ['Helvetica', 'Arial', 'sans-serif'],
       },
       maxWidth: {
         '96': '24rem',
