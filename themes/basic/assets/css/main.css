@@ -46,21 +46,53 @@
     }
 
     .wave .shape-fill {
-        fill: #065f46;
+        fill: #f72585;
+    }
+
+    .wave2 {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+        transform: rotate(180deg);
+    }
+
+    .wave2 svg {
+        position: relative;
+        display: block;
+        width: calc(163% + 1.3px);
+        height: 149px;
+    }
+
+    .wave2 .shape-fill {
+        fill: #7209B7;
+    }
+
+    .wave3 {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+        transform: rotate(180deg);
+    }
+
+    .wave3 svg {
+        position: relative;
+        display: block;
+        width: calc(142% + 1.3px);
+        height: 231px;
+    }
+
+    .wave3 .shape-fill {
+        fill: #4CC9F0;
     }
 
     html {
         scroll-behavior: smooth;
     }
-}
 
-.cursor::after {
-    display: block;
-    content: '';
-    position: absolute;
-    width: 4px;
-    height: 100%;
-    background-color: #fff;
-    animation: cursor 0.6s linear infinite alternate;
-    will-change: opacity;
 }

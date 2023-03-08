@@ -17,6 +17,11 @@ module.exports = {
         ...fontFamily,
         'sans': ['Helvetica', 'Arial', 'sans-serif'],
       },
+      colors: {
+        'glowy-pink': '#f72585',
+        'glowy-purple': '#7209b7',
+        'glowy-cyan': '#4cc9f0'
+      },
       maxWidth: {
         '96': '24rem',
       },
