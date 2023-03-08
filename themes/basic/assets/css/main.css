@@ -17,11 +17,11 @@
     }
 
     .nav {
-        @apply relative border-orange-800 text-xl font-sans font-extrabold p-4 border-2 tracking-[1px]
+        @apply relative border-purple-700 text-2xl font-sans font-extrabold p-4 border-2 tracking-[1px]
     }
 
     .nav::after {
-        @apply content-[''] bg-orange-800 h-[3px] w-[0%] -left-0 -bottom-[5px] absolute duration-500
+        @apply content-[''] bg-purple-700 h-[3px] w-[0%] -left-0 -bottom-[5px] absolute duration-500
     }
 
     .nav:hover::after {
