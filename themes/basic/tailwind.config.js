@@ -67,21 +67,30 @@ module.exports = {
         DEFAULT: {
           css: {
             p: {
-              color: '#4B443C'
+              color: theme('colors.amber[50]')
             },
             h1: {
-              color: '#0A0A00',
+              color: theme('colors.slate[300]'),
               fontWeight: 600
             },
             h2: {
-              color: '#0A0A00',
+              color: theme('colors.slate[300]'),
               fontWeight: 600
             },
             h3: {
-              color: '#0A0A00'
+              color: theme('colors.slate[300]')
             },
             h4: {
-              color: '#0A0A00'
+              color: theme('colors.slate[300]')
+            },
+            li: {
+              color: theme('colors.slate[300]')
+            },
+            strong: {
+              color: theme('colors.slate[300]')
+            },
+            a: {
+              color: '#06d6a0'
             }
           },
         },
