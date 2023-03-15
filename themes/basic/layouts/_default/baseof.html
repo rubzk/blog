@@ -2,6 +2,11 @@
 <html>
 {{- partial "head.html" . -}}
 
+<title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} | {{ printf "%s - %s" .Title .Site.Title }}{{ end }}
+</title>
+
+
+
 <body>
 	<div class="main">
 		{{- partial "header.html" . -}}

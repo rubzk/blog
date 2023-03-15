@@ -17,7 +17,7 @@
     }
 
     .nav {
-        @apply relative border-purple-700 text-2xl font-sans font-extrabold p-4 border-2 tracking-[1px]
+        @apply relative border-purple-700 text-2xl font-sans font-extrabold tracking-[1px]
     }
 
     .nav::after {
