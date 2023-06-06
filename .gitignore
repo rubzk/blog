@@ -3,7 +3,7 @@ node_modules/
 /assets/jsconfig.json
 hugo_stats.json
 .svg
-
+resources/
 # Executable may be added to repository
 hugo.exe
 hugo.darwin
