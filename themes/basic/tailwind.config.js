@@ -20,7 +20,9 @@ module.exports = {
       colors: {
         'glowy-pink': '#f72585',
         'glowy-purple': '#7209b7',
-        'glowy-cyan': '#4cc9f0'
+        'glowy-cyan': '#4cc9f0',
+        'pastel-pink': '#D25380',
+        'pastel-green': '#116D6E'
       },
       maxWidth: {
         '96': '24rem',

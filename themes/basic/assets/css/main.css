@@ -17,11 +17,11 @@
     }
 
     .nav {
-        @apply relative border-purple-700 text-2xl font-sans font-extrabold tracking-tighter
+        @apply relative border-amber-50 text-2xl font-sans font-extrabold tracking-tighter
     }
 
     .nav::after {
-        @apply content-[''] bg-purple-700 h-[3px] w-[0%] -left-0 -bottom-[5px] absolute duration-500
+        @apply content-[''] bg-amber-50 h-[3px] w-[0%] -left-0 -bottom-[5px] absolute duration-500
     }
 
     .nav:hover::after {
@@ -46,7 +46,7 @@
     }
 
     .wave .shape-fill {
-        fill: #f72585;
+        fill: #D25380;
     }
 
     .wave2 {
@@ -67,7 +67,7 @@
     }
 
     .wave2 .shape-fill {
-        fill: #7209B7;
+        fill: #116D6E;
     }
 
     .wave3 {
