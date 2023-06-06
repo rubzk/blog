@@ -1,3 +1,9 @@
+---
+title: "Creating Spotify Playlist with Machine Learning"
+date: 2020-08-23T15:20:44-03:00
+draft: true
+tags: ["programming", "python", "clustering"] 
+---
 Today I am turning 25. I can't believe how fast time slips, without knowing you are completing a quarter of a century in this uncertain and strange quest of life. A few months ago I had this idea of writing lessons I had during this last 25 years. Not only to share them with people but also as a kind of time capsule for the future me. It's going to be fun  to read this in 10 or 20 years later and compare if something on this list had change. I could write more than 25 (And I think 25 it's too much) but to keep it short and concise I decided to set 25 as the total number.
 Last but not least, I consider this list of lessons as a gift to the people that shared with me this 25 years, or at least a part of them. Some of you helped me to think, understand and also embrace many of the things I am going to talk about. I always felt extremely luckly to have the family I have, to meet the friends I met, to love the people I loved, to work with the people I worked. Everyone contributed to develop the person that I am today. I am going to quote Jorge Luis Borges &ldquo;I am not sure that I exist, actually, I am all the authors I had read, all the people I had met, all the women I had loved, all the cities I had visited&hellip;&rdquo;
 Enjoy&hellip;
