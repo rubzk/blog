@@ -35,6 +35,7 @@ module.exports = {
         cursor: 'cursor .6s linear infinite alternate',
         type: 'type 1.8s ease-out .8s 1 normal both',
         'type-reverse': 'type 1.8s ease-out 0s infinite alternate-reverse both',
+        fadedown: "fadedown 0.5s"
       },
       keyframes: {
         blob: {
@@ -49,6 +50,16 @@ module.exports = {
           },
           "100%": {
             transform: "translate(0px,0px) scale(1)"
+          }
+        },
+        fadedown: {
+          "0%": {
+            opacity: 0,
+            transform: "translateY(-30px) scale(0.9)",
+          },
+          "100%": {
+            opacity: 100,
+            transform: "translateY(0px) scale(1)",
           }
         },
         type: {
