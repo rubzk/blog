@@ -35,7 +35,8 @@ module.exports = {
         cursor: 'cursor .6s linear infinite alternate',
         type: 'type 1.8s ease-out .8s 1 normal both',
         'type-reverse': 'type 1.8s ease-out 0s infinite alternate-reverse both',
-        fadedown: "fadedown 0.5s"
+        fadedown: "fadedown ease-in 0.5s",
+        wiggle: "wiggle 2s infinite"
       },
       keyframes: {
         blob: {
@@ -60,6 +61,23 @@ module.exports = {
           "100%": {
             opacity: 100,
             transform: "translateY(0px) scale(1)",
+          }
+        },
+        wiggle: {
+          "0%": {
+            transform: "rotate(-30deg)",
+          },
+          "25%": {
+            transofrm: "rotate(60deg)",
+          },
+          "50%": {
+            transform: "rotate(-30deg)",
+          },
+          "75%": {
+            transform: "rotate(60deg)",
+          },
+          "100%": {
+            transform: "rotate(-30deg)",
           }
         },
         type: {
